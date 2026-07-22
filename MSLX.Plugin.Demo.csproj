@@ -9,6 +9,7 @@
     <GenerateDependencyFile>false</GenerateDependencyFile>
     <Generate>false</Generate>
     <DebugType>none</DebugType>
+	<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,7 +18,7 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="10.0.7" />
-    <PackageReference Include="MSLX.SDK" Version="1.5.4" />
+    <PackageReference Include="MSLX.SDK" Version="1.5.2" ExcludeAssets="runtime"/>
   </ItemGroup>
 
   <ItemGroup>
