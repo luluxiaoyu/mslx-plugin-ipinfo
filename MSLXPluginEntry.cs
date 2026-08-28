@@ -11,7 +11,7 @@ public class MSLXPluginEntry : IPlugin
     public string Id => "mslx-plugin-ipinfo"; 
     public string Name => "IP 信息显示";
     public string Description => "实时显示宿主机公网 IPv4/IPv6 与网卡详细网络信息。";
-    public string Version => "1.0.0";
+    public string Version => "1.0.1";
     public string Icon => "icon_77.png";
     public string MinSDKVersion => "1.5.2";
     public string Developer => "xiaoyu";
