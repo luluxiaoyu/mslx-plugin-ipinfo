@@ -43,7 +43,7 @@ defineExpose({
 </script>
 
 <template>
-  <t-dialog v-model:visible="visible" header="宿主机网卡与 IP 详情" width="800px" :footer="false" @close="handleClose">
+  <t-dialog v-model:visible="visible" header="宿主机网卡与 IP 详情" width="800px" :footer="false" @close="handleClose" attach="body">
     <div v-if="loading" class="flex justify-center items-center h-40">
       <div class="text-[var(--td-text-color-secondary)]">正在加载数据...</div>
     </div>
